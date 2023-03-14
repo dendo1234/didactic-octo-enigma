@@ -1,0 +1,22 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(49, 49, 49);
+}
+
+mark {
+    background-color: lightyellow;
+    color: rgb(49, 49, 49);
+}
+
+.highlight-y {
+    background-color: lightyellow;
+}
+
+.highlight-b {
+    background-color: lightblue;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+}
