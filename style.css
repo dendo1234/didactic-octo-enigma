@@ -1,11 +1,25 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: rgb(49, 49, 49);
+    color: #494949;
+    background: #fafafa;
 }
 
-mark {
-    background-color: lightyellow;
-    color: rgb(49, 49, 49);
+h1 {
+    font-size: 3em;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+.button {
+    color: black;
+    background: lightgray;
+    border-radius: 5px;
+    padding: 7px;
+    text-decoration: none;
+    margin: 5px;
+
 }
 
 .highlight-y {
@@ -16,7 +30,41 @@ mark {
     background-color: lightblue;
 }
 
-.flex-container {
+.text-g {
+    color: #808080;
+}
+
+.content-body {
+    width: 80%;
+    translate: 5%;
+}
+
+.image-banner {
+    width: 100%;
+    max-height: 30vh;
+    object-fit: cover;
+    object-position: 0% 55%;
+    margin-bottom: 10px
+}
+
+.flex-container, .flex-buttons {
     display: flex;
+}
+
+.flex-container {
     justify-content: space-between;
+}
+
+.ball-area {
+    height: 50vh;
+    width: 100%;
+}
+
+.ball {
+    padding: 25px;
+    color: white;
+    background-color: #000000;
+    border-color: #000000;
+    border-radius: 50px;
+    position: relative;
 }
